@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import theme from 'assets/styles/theme';
 import './App.css';
 import { BrowserRouter } from 'react-router-dom';
-import Router from './assets/styles/router';
+import Router from './router';
 
 const queryClient = new QueryClient();
 
